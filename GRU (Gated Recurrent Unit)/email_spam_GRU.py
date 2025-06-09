@@ -86,7 +86,7 @@ class SuperEnhancedEmailClassifier:
         self.max_length = max_length
         self.tokenizer = None
         self.model = None
-        self.class_weights = None
+        self.class_weights = Non
         self.tfidf_vectorizer = None
         
     def load_and_analyze_data(self):
@@ -94,7 +94,7 @@ class SuperEnhancedEmailClassifier:
         print("📁 Loading dan menganalisis dataset...")
         
         possible_paths = [
-            r'd:\Kuliah\Tugas kuliah SM6\deeplerning\TUBES\email\email_spam_indo.csv',
+            r'\Kuliah\Tugas kuliah SM6\deeplerning\TUBES\GRU (Gated Recurrent Unit)\email_spam_indo.csv',
             r'email_spam_indo.csv',
             r'.\email_spam_indo.csv',
             r'..\email_spam_indo.csv',
