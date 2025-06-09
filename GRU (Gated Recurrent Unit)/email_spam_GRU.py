@@ -51,7 +51,7 @@ INDONESIAN_STOPWORDS = {
     'would', 'you', 'your', 'yours', 'yourself', 'yourselves'
 }
 
-# Kata-kata yang sering muncul di spam
+# Kata-kata yang sering muncul di spammm
 SPAM_INDICATORS = {
     'menang', 'hadiah', 'gratis', 'bonus', 'promo', 'diskon', 'untung', 'profit',
     'investasi', 'modal', 'uang', 'rupiah', 'dollar', 'bisnis', 'peluang',
